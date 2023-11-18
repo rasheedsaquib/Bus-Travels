@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lato';
+}
+.container{
+
+    border-top: 50px;
+    display: flex;
+
+}
+
+
+.container select{
+    background-color: aliceblue;
+    border: 0;
+    border: 5px;
+    font-size: 16px;
+    margin: left 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.bus{
+    height: 550px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+
+.avialable{
+    background-color: white;
+    border: 2px solid green;
+    height: 70px;
+    width: 30px;
+    margin: 3px;
+}
+.women-seat{
+    
+    height: 70px;
+    width: 30px;
+    margin: 3px;
+    border: 2px solid  rgb(217, 91, 181);
+    box-shadow: 50%;
+
+}
+
+.seat-selected{
+    background-color: green;
+    height: 70px;
+    width: 30px;
+    margin: 3px;
+}
+
+.seat-booked{
+    background-color:  rgb(211, 211, 227);
+    height: 70px;
+    width: 30px;
+    margin: 3px;
+    border: 2px solid black;
+}
+.seat-female-booked{
+    background-color:   rgb(211, 211, 227);
+    height: 70px;
+    width: 30px;
+    margin: 3px;
+    border: 2px solid  rgb(217, 91, 181);
+}
+
+.seat{
+    background-color: white;
+    border: 2px solid green;
+    height: 99px;
+    width: 50px;
+    margin: 3px;
+}
+
+.seat.selected{
+    background-color: green;
+}
+
+.seat.booked{
+    background-color:   rgb(211, 211, 227);
+    border: 2px solid black;
+
+}
+.seat.female{
+    border: 2px solid  rgb(217, 91, 181);
+    background-color:   rgb(211, 211, 227);
+
+}
+.seat.women{
+    border: 2px solid  rgb(217, 91, 181);
+
+}
+
+
+.seat:nth-of-type(1){
+    margin-right: 18px;
+}
+
+.seat:nth-last-of-type(3){
+    margin-right: 18px;
+}
+
+.seat:not(.booked):hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+.showcase{
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+
+
+}
+
+.showcase li small{
+margin: 2px;
+text-overflow: clip;
+
+}
+
+
+.row{
+    display:flex;
+    
+}
+
+p.text{
+    margin: 5px 0;
+}
+p.text span{
+    color: green;
+}
+.card{
+    height: 550px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+.head{
+    border-bottom: solid black;
+    
+}
+
+
+.new{
+    height: auto;
+    width: auto;
+    border-bottom:  2px solid black;
+    text-align: center;
+    margin: 0%;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+
+}
